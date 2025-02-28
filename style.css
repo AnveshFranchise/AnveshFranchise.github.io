@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mechanical Engineering Study Materials</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        header {
+            background: #333;
+            color: white;
+            padding: 20px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            background: #444;
+            margin: 0;
+            overflow: hidden;
+        }
+        nav ul li {
+            display: inline;
+            padding: 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        section {
+            padding: 20px;
+        }
+        ul li {
+            margin: 10px 0;
+        }
+        footer {
+            background: #222;
+            color: white;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mechanical Engineering Study Materials</h1>
+        <p>This website is created for our students to access study materials, notes, and resources for better learning.</p>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#materials">Study Materials</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <section id="materials">
+        <h2>Available Study Materials</h2>
+        <ul>
+            <li><a href="thermodynamics.pdf" download>Thermodynamics Notes</a></li>
+            <li><a href="fluid-mechanics.pdf" download>Fluid Mechanics Lecture Slides</a></li>
+            <li><a href="strength-of-materials.pdf" download>Strength of Materials Guide</a></li>
+        </ul>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Mechanical Engineering Department | All Rights Reserved</p>
+    </footer>
+</body>
+</html>
