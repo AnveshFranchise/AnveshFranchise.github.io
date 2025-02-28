@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Study Materials</title>
+</head>
+<body>
+    <h1>Welcome to My Study Materials</h1>
+    <ul>
+        <li><a href="notes.pdf">Download Notes</a></li>
+        <li><a href="lecture-slides.pdf">Lecture Slides</a></li>
+    </ul>
+</body>
+</html>
